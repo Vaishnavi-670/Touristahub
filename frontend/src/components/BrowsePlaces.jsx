@@ -6,10 +6,10 @@ const BrowsePlaces = () => {
 
     const [placeVisit, setplaceVisit] = useState([]);
 
-    const {location} = useParams();
+    const { location } = useParams();
 
-    const fetchPlaceData = async( )=>{
-        const res =await fetch('http://localhost:5000/place/getbylocation/'+location);
+    const fetchPlaceData = async () => {
+        const res = await fetch('http://localhost:5000/place/getbylocation/' + location);
         console.log(res.status);
         const data = await res.json();
         console.table(data);
@@ -17,31 +17,35 @@ const BrowsePlaces = () => {
     }
 
     useEffect(() => {
-      fetchPlaceData();
+        fetchPlaceData();
     }, [])
 
-    const displayPlaces=() => {
-        return placeVisit.map((obj,index)=>{
+    const displayPlaces = () => {
+        return placeVisit.map((obj, index) => {
             return <div className='col-md-4 mt-5'>
-                <div className='card-shadow'>
-                    <h2 className="">{obj.name}</h2>
-                    <h3 className="">{obj.location}</h3>
-                    <h3 className="">{obj.address}</h3>
-                    <h3 className="">{obj.descriptions}</h3>
 
-                    <img style={{height:"100px",width:"100px"}} src={'http://localhost:5000/'+obj.image} alt="loading" />
+                <div className='card shadow'>
+                    <img className='card-img-top' style={{ height: "200px", objectFit: 'cover' }} src={'http://localhost:5000/' + obj.image} alt="loading" />
+                    <div className="card-body">
+                        <h2 className="">{obj.name}</h2>
+                        <p className="">{obj.address}</p>
+                        <p className="">{obj.description}</p>
+                    </div>
+
                 </div>
             </div>
         })
     }
 
-  return (
-    <>
-        <div className='container'>
-            {displayPlaces()}
-        </div>
-    </>
-  )
+    return (
+        <>
+            <div className='container'>
+                <div className='row'>
+                    {displayPlaces()}
+                </div>
+            </div>
+        </>
+    )
 }
 
 export default BrowsePlaces
