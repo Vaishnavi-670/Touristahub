@@ -9,6 +9,7 @@ import { AppProvider } from './AppContext';
 import Place from './components/AddPlace';
 import BrowseLocations from './components/BrowseLocations';
 import BrowsePlaces from './components/BrowsePlaces';
+import ManagePlaces from './components/ManagePlaces';
 const App = () => {
   return (
     <div><SnackbarProvider maxSnack={3} anchorOrigin={{vertical:'top',horizontal:'right'}}/>
@@ -26,6 +27,7 @@ const App = () => {
           <Route path='/login' element={<Login/>}/>
           <Route path='/addplace' element={<Place/>}/>
           <Route path='/browseplace/:location' element={<BrowsePlaces/>}/>
+          <Route path='/manageplace/:location' element={<ManagePlaces/>}/>
        </Routes>
        </AppProvider>
      </BrowserRouter>
