@@ -34,12 +34,7 @@ const Navbar = () => {
             Places to Visit
             </NavLink>
             </li>
-            <li className="nav-item ">
-          <NavLink
-            className="nav-link " to="/manageplace "> 
-           ManagePlaces
-            </NavLink>
-            </li>
+            
             
       </>
      }

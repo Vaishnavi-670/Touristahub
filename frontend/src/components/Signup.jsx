@@ -48,7 +48,7 @@ const Signup = () => {
         sessionStorage.setItem('user', JSON.stringify(data));
 
 
-        navigate('/');
+        navigate('/login');
       } else if (res.status === 401) {
         enqueueSnackbar('Invalid Credentials', { variant: 'error' });
       } else {
