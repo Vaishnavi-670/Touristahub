@@ -15,6 +15,7 @@ header{
   background-size: cover;
   background-position: center;
 } 
+
 .title{
   transform: perspective(500px);
 }
