@@ -13,6 +13,7 @@ const BrowseLocations = () => {
                         <button class="btn btn-warning ">Search</button>
                     </div>
                 </div>
+                    <video src="/waterfall2.mp4" style={{ position: 'absolute', top: 0, zIndex: -1, objectFit: 'cover' }} autoPlay ></video>
             </header>
 
             <section>

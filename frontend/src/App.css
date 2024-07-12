@@ -10,10 +10,10 @@ button{
 
 header{
   height: 40vh;
-  background-image: linear-gradient(0deg, #070707d9, #252424e0),
-  url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708473600&semt=sph");
-  background-size: cover;
-  background-position: center;
+  /* background-image: linear-gradient(0deg, #070707d9, #252424e0), */
+  /* url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1708473600&semt=sph"); */
+  /* background-size: cover; */
+  /* background-position: center; */
 } 
 
 .title{
