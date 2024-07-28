@@ -4,16 +4,16 @@ const BrowseLocations = () => {
 
     return (
         <div>
-            <header className='bg-dark text-white d-flex' >
-                <div class="container py-5 my-auto">
-                    <h1 class="text-center display-2 fw-bold  title">Tourista Hub</h1>
-                    <p class="fs-4 text-center sub-title">If you’re twenty-two, physically fit, hungry to learn and be better, I urge you to travel – as far and widely as possible</p>
-                    <div class="input-group col-md-10 mx-auto my-5">
-                        <input type="text" class="form-control" />
-                        <button class="btn btn-warning ">Search</button>
+            <header className=' text-white d-flex' style={{ height: '100vh', position: 'relative', backgroundColor: 'rgba(0, 0, 0, 0.7)' }} >
+                <div className="container py-5 my-auto">
+                    <h1 className="text-center display-2 fw-bold  title">Tourista Hub</h1>
+                    <p className="fs-4 text-center sub-title">If you’re twenty-two, physically fit, hungry to learn and be better, I urge you to travel – as far and widely as possible</p>
+                    <div className="input-group col-md-10 mx-auto my-5" style={{width:'50%'}}>
+                        <input type="text" className="form-control" />
+                        <button className="btn btn-warning ">Search</button>
                     </div>
                 </div>
-                    <video src="/waterfall2.mp4" style={{ position: 'absolute', top: 0, zIndex: -1, objectFit: 'cover' }} autoPlay ></video>
+                    <video muted loop src="./waterfall2.mp4" style={{ position: 'absolute', top: 0, zIndex: -1, objectFit: 'cover',width:'100%', height:'100vh' }} autoPlay ></video>
             </header>
 
             <section>
