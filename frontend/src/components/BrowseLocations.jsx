@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { Link } from 'react-router-dom'
+<link rel="stylesheet" href="index.css" />
 const BrowseLocations = () => {
 
     return (
@@ -7,7 +8,9 @@ const BrowseLocations = () => {
             <header className=' text-white d-flex' style={{ height: '100vh', position: 'relative', backgroundColor: 'rgba(0, 0, 0, 0.7)' }} >
                 <div className="container py-5 my-auto">
                     <h1 className="text-center display-2 fw-bold  title">Tourista Hub</h1>
-                    <p className="fs-4 text-center sub-title">If you’re twenty-two, physically fit, hungry to learn and be better, I urge you to travel – as far and widely as possible</p>
+                    <p className=" fs-4 text-center text-4xl sub-title">Book an exclusive</p>
+                    <p className="fs-4 text-center sub-title">home for your personal travel</p>
+                    <p className="fs-4 text-center sub-title">Each property is hand-picked, personally visited and cannot be found elsewhere.</p>
                     <div className="input-group col-md-10 mx-auto my-5" style={{width:'50%'}}>
                         <input type="text" className="form-control" />
                         <button className="btn btn-warning ">Search</button>
