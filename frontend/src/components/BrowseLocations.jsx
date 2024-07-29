@@ -20,6 +20,153 @@ const BrowseLocations = () => {
             </header>
 
             <section>
+            
+  {/* Features */}
+  <div className="container py-5">
+    {/* Title */}
+    <div className="mx-auto mb-4 text-center" style={{ maxWidth: '600px' }}>
+      <h2 className="display-4 text-dark">
+        Explore Places
+      </h2>
+      <p className="mt-3 text-dark">
+        Life is Short and the World is wide!
+      </p>
+    </div>
+    
+    <div className="row mt-5">
+      <div className="col-md-3 d-none d-md-flex justify-content-center align-items-center">
+        <img
+          className="rounded img-fluid   "
+          src="https://media.istockphoto.com/id/490934006/photo/freedom.webp?b=1&s=170667a&w=0&k=20&c=QxOLzG2Wcl2FrFo-Ja-HzPYcfOHBUB3_if2b9oT7Myo="
+          alt="Features Image"
+        />
+      </div>
+      {/* End Col */}
+      <div className="col-4 col-md-3 d-md-flex justify-content-center align-items-center">
+        <img
+          className="rounded img-fluid" style={{height:'400px',width:'300px', objectFit: 'cover'}}
+          src="https://images.unsplash.com/photo-1518710843675-2540dd79065c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bW91bnRhaW5zfGVufDB8fDB8fHww"
+          alt="Features Image"
+        />
+      </div>
+      {/* End Col */}
+      <div className="col-4 col-md-3">
+        <img
+          className="rounded img-fluid"
+          src="https://images.unsplash.com/photo-1541628951107-a9af5346a3e4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDUxfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D"
+          alt="Features Image"
+        />
+      </div>
+      {/* End Col */}
+      <div className="col-4 col-md-3 d-md-flex justify-content-center align-items-center">
+        <img
+          className="rounded img-fluid"
+          src="https://images.unsplash.com/photo-1566679056462-2075774c8c07?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bW91bnRhaW5zfGVufDB8fDB8fHww"
+          alt="Features Image"
+        />
+      </div>
+      {/* End Col */}
+    </div>
+    {/* End Grid */}
+  </div>
+  {/* End Features */}
+  <>
+  {/* Features */}
+  <div className="container py-5">
+    {/* Grid */}
+    <div className="row align-items-center">
+      <div className="col-md-6">
+        <img
+          className="rounded img-fluid"
+          src="https://images.unsplash.com/photo-1648737963503-1a26da876aca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&h=900&q=80"
+          alt="Features Image"
+        />
+      </div>
+      {/* End Col */}
+      <div className="col-md-6 mt-4 mt-md-0">
+        <div className="mb-4">
+          {/* Title */}
+          <div className="mb-3">
+            <h2 className="font-weight-bold display-4 text-dark">
+              We tackle the challenges start-ups face
+            </h2>
+            <p className="text-muted">
+              Besides working with start-up enterprises as a partner for
+              digitalization, we have built enterprise products for common pain
+              points that we have encountered in various products and projects.
+            </p>
+          </div>
+          {/* End Title */}
+          {/* List */}
+          <ul className="list-unstyled">
+            <li className="d-flex align-items-start mb-2">
+              <span className="d-flex justify-content-center align-items-center rounded-circle bg-primary text-white mr-3" style={{ width: '24px', height: '24px' }}>
+                <svg
+                  className="bi bi-check"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={16}
+                  height={16}
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M13.485 1.515a.5.5 0 0 1 .707 0l.707.707a.5.5 0 0 1 0 .707l-8 8a.5.5 0 0 1-.707 0L4.5 8.207a.5.5 0 0 1 .707-.707L6 8.293l7.485-7.485z"/>
+                </svg>
+              </span>
+              <div>
+                <span className="text-muted">
+                  <span className="font-weight-bold">Easy &amp; fast</span> designing
+                </span>
+              </div>
+            </li>
+            <li className="d-flex align-items-start mb-2">
+              <span className="d-flex justify-content-center align-items-center rounded-circle bg-primary text-white mr-3" style={{ width: '24px', height: '24px' }}>
+                <svg
+                  className="bi bi-check"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={16}
+                  height={16}
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M13.485 1.515a.5.5 0 0 1 .707 0l.707.707a.5.5 0 0 1 0 .707l-8 8a.5.5 0 0 1-.707 0L4.5 8.207a.5.5 0 0 1 .707-.707L6 8.293l7.485-7.485z"/>
+                </svg>
+              </span>
+              <div>
+                <span className="text-muted">
+                  Powerful <span className="font-weight-bold">features</span>
+                </span>
+              </div>
+            </li>
+            <li className="d-flex align-items-start mb-2">
+              <span className="d-flex justify-content-center align-items-center rounded-circle bg-primary text-white mr-3" style={{ width: '24px', height: '24px' }}>
+                <svg
+                  className="bi bi-check"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width={16}
+                  height={16}
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path d="M13.485 1.515a.5.5 0 0 1 .707 0l.707.707a.5.5 0 0 1 0 .707l-8 8a.5.5 0 0 1-.707 0L4.5 8.207a.5.5 0 0 1 .707-.707L6 8.293l7.485-7.485z"/>
+                </svg>
+              </span>
+              <div>
+                <span className="text-muted">
+                  User Experience Design
+                </span>
+              </div>
+            </li>
+          </ul>
+          {/* End List */}
+        </div>
+      </div>
+      {/* End Col */}
+    </div>
+    {/* End Grid */}
+  </div>
+  {/* End Features */}
+</>
+
 
                 <div className="row ">
                     <div className="col-md-3">
