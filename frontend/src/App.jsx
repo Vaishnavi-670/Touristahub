@@ -10,6 +10,7 @@ import Place from './components/AddPlace';
 import BrowseLocations from './components/BrowseLocations';
 import BrowsePlaces from './components/BrowsePlaces';
 import ManagePlaces from './components/ManagePlaces';
+import Destinations from './components/Destinations';
 const App = () => {
   return (
     <div><SnackbarProvider maxSnack={3} anchorOrigin={{vertical:'top',horizontal:'right'}}/>
@@ -28,6 +29,8 @@ const App = () => {
           <Route path='/addplace' element={<Place/>}/>
           <Route path='/browseplace/:location' element={<BrowsePlaces/>}/>
           <Route path='/manageplace/:location' element={<ManagePlaces/>}/>
+          <Route path='/desinations/:location' element={<Destinations/>}/>
+          
        </Routes>
        </AppProvider>
      </BrowserRouter>
