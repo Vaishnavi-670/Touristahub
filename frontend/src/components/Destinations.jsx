@@ -22,6 +22,17 @@ const Destinations = () => {
     </div>
     {/* Add more columns as needed */}
   </div>
+  <div className="row ">
+          <div className="col-md-3">
+            <div className="card" style={{ height: '300px', overflow: 'hidden' }}>
+              <div className="card-body">
+                <img className='card-img-top' style={{ height: "200px", objectFit: 'cover' }} src="https://static.toiimg.com/thumb/msid-102383896,width-748,height-499,resizemode=4,imgsize-238460/.jpg" alt="" />
+                <h3>Shimla</h3>
+                <Link className='btn btn-primary' to="/browseplace/shimla">View Places to Visit</Link>
+              </div>
+            </div>
+          </div>
+          </div>
 </div>
     
   )
