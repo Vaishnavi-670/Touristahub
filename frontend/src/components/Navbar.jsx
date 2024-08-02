@@ -46,12 +46,10 @@ const Navbar = () => {
      }
   }
   return (
-    <nav className="navbar navbar-expand-lg  bg-transparent overflow-y-hidden">
+    <nav className="navbar navbar-expand-lg   bg-transparent overflow-y-hidden" >
   <div className="container-fluid">
-    <a className="navbar-brand" href="#">
-      TouristaHub
-    </a>
-    <button
+    <img  style={{height:'60px', width:'100px', objectFit:'cover'}} src="https://media.istockphoto.com/id/1637056982/vector/travel-agency-business-logo-transport-logistics-delivery-logo-design.jpg?s=612x612&w=0&k=20&c=b1SGg7tQ9DGPDpzLvWJgqUl_LyrBzAQpabPw-RJfg5s=" alt="" />
+    {/* <button
       className="navbar-toggler"
       type="button"
       // data-bs-toggle="collapse"
@@ -61,7 +59,7 @@ const Navbar = () => {
       // aria-label="Toggle navigation"
     >
       <span className="navbar-toggler-icon" />
-    </button>
+    </button> */}
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         
