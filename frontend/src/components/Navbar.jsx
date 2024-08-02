@@ -34,13 +34,19 @@ const Navbar = () => {
             Places to Visit
             </NavLink>
             </li>
+            <li className="nav-item ">
+          <NavLink
+            className="nav-link " to="/destinations"> 
+           Destinations
+            </NavLink>
+            </li>
             
             
       </>
      }
   }
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary overflow-y-hidden">
+    <nav className="navbar navbar-expand-lg  bg-transparent overflow-y-hidden">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">
       TouristaHub
@@ -48,11 +54,11 @@ const Navbar = () => {
     <button
       className="navbar-toggler"
       type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent"
-      aria-expanded="false"
-      aria-label="Toggle navigation"
+      // data-bs-toggle="collapse"
+      // data-bs-target="#navbarSupportedContent"
+      // aria-controls="navbarSupportedContent"
+      // aria-expanded="false"
+      // aria-label="Toggle navigation"
     >
       <span className="navbar-toggler-icon" />
     </button>
@@ -64,7 +70,7 @@ const Navbar = () => {
            {showLoginOptions()}
         </ul>
 
-      <form className="d-flex" role="search">
+      {/* <form className="d-flex" role="search">
         <input
           className="form-control me-2"
           type="search"
@@ -74,7 +80,7 @@ const Navbar = () => {
         <button className="btn btn-outline-success" type="submit">
           Search
         </button>
-      </form>
+      </form> */}
     </div>
   </div>
 </nav>

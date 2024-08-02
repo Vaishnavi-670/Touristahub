@@ -29,7 +29,7 @@ const App = () => {
           <Route path='/addplace' element={<Place/>}/>
           <Route path='/browseplace/:location' element={<BrowsePlaces/>}/>
           <Route path='/manageplace/:location' element={<ManagePlaces/>}/>
-          <Route path='/desinations/:location' element={<Destinations/>}/>
+          <Route path='/destinations' element={<Destinations/>}/>
           
        </Routes>
        </AppProvider>
