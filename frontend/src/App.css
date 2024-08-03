@@ -35,7 +35,7 @@ header{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #e0d6dd;
+  /* background-color: #e0d6dd; */
   background-size: cover;
   background-position: center;
 
@@ -48,7 +48,7 @@ header{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #e0d6dd;
+  /* background-color: #e0d6dd; */
   background-size: cover;
   background-position: center;
 
@@ -71,9 +71,7 @@ header{
   outline: 2px solid black;
 }
 
-.myinput:focus{
-  background-color: aquamarine;
-}
+
 
 .mybtn{
   width: 100%;

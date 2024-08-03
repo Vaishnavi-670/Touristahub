@@ -24,11 +24,11 @@ const BrowseLocations = () => {
           {/* <p className="fs-4 text-center sub-title">home for your personal travel</p> */}
           {/* <p className="fs-4 text-center sub-title">Each property is hand-picked, personally visited and cannot be found elsewhere.</p> */}
           <div className="d-flex justify-content-center input-group col-md-10 mx-auto my-5" style={{ width: '50%' }}>
-            {/* <input ref={searchRef} type="text" className="form-control" />
-            <button onClick={handleSearch} className="btn btn-warning ">Search</button> */}
-            <Link ref={searchRef} href="/destinations">
+            <input ref={searchRef} type="text" className="form-control" />
+            <button onClick={handleSearch} className="btn btn-warning ">Search</button>
+            {/* <Link ref={searchRef} href="/destinations">
               <button onClick={handleSearch} className="text-white bg-warning rounded-pill px-5 py-3  " >Get Started</button>
-            </Link>
+            </Link> */}
           </div>
         </div>
         <img src="https://lp-cms-production.imgix.net/2021-08/shutterstockRF_1541944991.jpg?w=1440&h=810&fit=crop&auto=format&q=75" style={{ position: 'absolute', top: 0, zIndex: -1, objectFit: 'cover', width: '100%', height: '100vh' }} alt="" />
@@ -60,11 +60,48 @@ const BrowseLocations = () => {
                       And many of our people need it sorely on these accounts.
                       It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.
                     </p>
+                    
                   
                 </div>
               </div>  
             </div> 
           </div>
+          <div id="page2" className="d-flex align-items-center px-4 " style={{ height: '400px', width: '100%' }}>
+      <div id="bottom" className="d-flex align-items-center px-4" style={{ height: '100%', width: '100%', padding: '7px', whiteSpace: 'nowrap', overflowX: 'auto', overflowY: 'hidden' }}>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden', transition:' 0.4s all ease' }}>
+          <img src="https://media.istockphoto.com/id/842920834/photo/zurich-switzerland.webp?b=1&s=170667a&w=0&k=20&c=ekzjLAHY38-aYXbkS0sDmZUgcX2O6dlXMJIA_UzdQOo=" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+          <div id="text-bottom" className="text-white-50" style={{ height: '40%', width: '100%', bottom: '0', position: 'absolute' }}>
+            
+          </div>
+        </div>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden' }}>
+          <img src="https://media.istockphoto.com/id/869122798/photo/basel-switzerland.webp?b=1&s=170667a&w=0&k=20&c=RP0IGfuE5Q7y1_0JUuq_00UoSPB4wqV2-uS22F88EL4=" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+          <div id="text-bottom" className="text-white-50" style={{ height: '40%', width: '100%', bottom: '0', position: 'absolute' }}>
+
+          </div>
+        </div>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden' }}>
+          <img src="https://images.unsplash.com/photo-1721367630037-f97ef4bc9a83?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+          <div id="text-bottom" className="text-white-50" style={{ height: '40%', width: '100%', bottom: '0', position: 'absolute' }}>
+           
+          </div>
+        </div>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden' }}>
+          <img src="https://images.unsplash.com/photo-1722172118908-1a97c312ce8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM4fEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+          <div id="text-bottom" className="text-white-50" style={{ height: '40%', width: '100%', bottom: '0', position: 'absolute' }}>
+            
+          </div>
+        </div>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden' }}>
+          <img src="https://images.unsplash.com/photo-1722233987129-61dc344db8b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMxfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+          <div id="text-bottom" className="text-white-50" style={{ height: '40%', width: '100%', bottom: '0', position: 'absolute' }}>
+            
+          </div>
+        </div>
+        
+      </div>
+    </div>
+          
         </>
 
         {/* Features */}

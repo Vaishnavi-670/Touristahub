@@ -13,3 +13,6 @@
     transform: scale(1.05);
     transition: transform 0.3s ease;
   }
+  .elem:hover {
+    box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.344);
+  }
