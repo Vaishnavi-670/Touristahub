@@ -18,7 +18,7 @@ const BrowseLocations = () => {
   return (
     <div className='overflow-y-hidden '>
       <header className=' text-white d-flex' style={{ height: '100vh', position: 'relative', backgroundColor: 'rgba(0, 0, 0, 0.6)' }} >
-        <div className="container py-5 my-auto">
+        <div className="container py-5 my-auto " >
           <h1 className="text-center display-2 fw-bold  title">Welcome to Tourista Hub</h1>
           <p className=" fs-4 text-center text-4xl sub-title">Book an exclusive home for your personal travel</p>
           {/* <p className="fs-4 text-center sub-title">home for your personal travel</p> */}
@@ -66,37 +66,48 @@ const BrowseLocations = () => {
               </div>  
             </div> 
           </div>
-          <div id="page2" className="d-flex align-items-center px-4 " style={{ height: '400px', width: '100%' }}>
-      <div id="bottom" className="d-flex align-items-center px-4" style={{ height: '100%', width: '100%', padding: '7px', whiteSpace: 'nowrap', overflowX: 'auto', overflowY: 'hidden' }}>
-        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden', transition:' 0.4s all ease' }}>
+          <div id="page2" className="d-flex align-items-center px-4 " style={{ height: '330px', width: '100%' }}>
+      <div id="bottom" className="d-flex align-items-center px-4" style={{ height: '100%', width: '100%',  padding: '7px', whiteSpace:  'nowrap', overflowX: 'auto', overflowY: 'hidden' }}>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px',  position: 'relative', overflow: 'hidden',gap: '2vw', transition: '0.4s all ease' }}>
           <img src="https://media.istockphoto.com/id/842920834/photo/zurich-switzerland.webp?b=1&s=170667a&w=0&k=20&c=ekzjLAHY38-aYXbkS0sDmZUgcX2O6dlXMJIA_UzdQOo=" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
-          <div id="text-bottom" className="text-white-50" style={{ height: '40%', width: '100%', bottom: '0', position: 'absolute' }}>
-            
-          </div>
-        </div>
-        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden' }}>
-          <img src="https://media.istockphoto.com/id/869122798/photo/basel-switzerland.webp?b=1&s=170667a&w=0&k=20&c=RP0IGfuE5Q7y1_0JUuq_00UoSPB4wqV2-uS22F88EL4=" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
-          <div id="text-bottom" className="text-white-50" style={{ height: '40%', width: '100%', bottom: '0', position: 'absolute' }}>
 
-          </div>
+          
         </div>
-        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden' }}>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden',gap: '2vw', transition: '0.4s all ease' }}>
+        <img src="https://media.istockphoto.com/id/869122798/photo/basel-switzerland.webp?b=1&s=170667a&w=0&k=20&c=RP0IGfuE5Q7y1_0JUuq_00UoSPB4wqV2-uS22F88EL4=" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+
+        </div>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden',gap: '2vw', transition: '0.4s all ease' }}>
           <img src="https://images.unsplash.com/photo-1721367630037-f97ef4bc9a83?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
-          <div id="text-bottom" className="text-white-50" style={{ height: '40%', width: '100%', bottom: '0', position: 'absolute' }}>
-           
-          </div>
+          
         </div>
-        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden' }}>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden',gap: '2vw', transition: '0.4s all ease' }}>
           <img src="https://images.unsplash.com/photo-1722172118908-1a97c312ce8c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDM4fEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
-          <div id="text-bottom" className="text-white-50" style={{ height: '40%', width: '100%', bottom: '0', position: 'absolute' }}>
-            
-          </div>
+          
         </div>
-        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden' }}>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden',gap: '2vw', transition: '0.4s all ease' }}>
           <img src="https://images.unsplash.com/photo-1722233987129-61dc344db8b6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMxfEZ6bzN6dU9ITjZ3fHxlbnwwfHx8fHw%3D" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
-          <div id="text-bottom" className="text-white-50" style={{ height: '40%', width: '100%', bottom: '0', position: 'absolute' }}>
-            
-          </div>
+          
+        </div>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden',gap: '2vw', transition: '0.4s all ease' }}>
+          <img src="https://media.istockphoto.com/id/2155876326/photo/serene-tropical-beach-in-bora-bora-french-polynesia.jpg?s=612x612&w=0&k=20&c=E6dvsA9QvpFvPJavxC-zKf9zrXlsIaIa4y2Wa5pxg3E=" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+          
+        </div>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden',gap: '2vw', transition: '0.4s all ease' }}>
+          <img src="https://media.istockphoto.com/id/1961768252/photo/tropical-white-sand-beach-with-palms-and-sea.webp?s=170667a&w=0&k=20&c=zVADCPfrZUWfhnBGDIc7lhZbIi_QJK2BbpK-WyT3iqg=" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+          
+        </div>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden',gap: '2vw', transition: '0.4s all ease' }}>
+          <img src="https://images.unsplash.com/photo-1520520731457-9283dd14aa66?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+          
+        </div>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden',gap: '2vw', transition: '0.4s all ease' }}>
+          <img src="https://images.unsplash.com/photo-1471989749605-1d14cb3d836e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8NDh8MjE4MDY3Nnx8ZW58MHx8fHx8" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+          
+        </div>
+        <div className="elem d-inline-block me-2" style={{ height: '100%', width: '300px', borderRadius: '35px', position: 'relative', overflow: 'hidden',gap: '2vw', transition: '0.4s all ease' }}>
+          <img src="https://images.unsplash.com/photo-1516730241870-cffe363377f3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fHw%3D" alt="" style={{ height: '100%', width: '100%', objectFit: 'cover', objectPosition: 'center' }} />
+          
         </div>
         
       </div>
