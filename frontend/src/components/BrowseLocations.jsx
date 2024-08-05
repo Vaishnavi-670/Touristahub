@@ -112,6 +112,34 @@ const BrowseLocations = () => {
         
       </div>
     </div>
+    {/* new section */}
+    {/* <div className="bg-white overflow-hidden position-relative d-lg-flex align-items-center">
+      <div className="w-100 py-5 px-4 sm:px-6 lg:py-5 lg:px-8 z-20">
+        <h2 className="display-4 font-weight-bold text-dark sm:text-4xl">
+          <span className="d-block">
+            Mother hearth host your travel
+          </span>
+        </h2>
+        <p className="text-md mt-4 text-muted">
+          The state of Utah in the United States is home to lots of beautiful National parks. Bryce National Canyon Park ranks as three of the most magnificent & awe-inspiring.
+        </p>
+        <div className="lg:mt-0 lg:flex-shrink-0">
+          <div className="mt-4 d-inline-flex rounded shadow">
+            <button type="button" className="btn btn-success btn-lg">
+              Get started
+            </button>
+          </div>
+        </div>
+      </div>
+      <div className="d-flex align-items-center gap-3 p-4 lg:p-5">
+        <img src="/images/landscape/3.jpg" className="w-50 rounded" alt="Tree" />
+        <div>
+          <img src="/images/landscape/2.jpg" className="mb-3 rounded" alt="Tree" />
+          <img src="/images/landscape/4.jpg" className="rounded" alt="Tree" />
+        </div>
+      </div>
+    </div> */}
+  
           
         </>
 
