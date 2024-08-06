@@ -193,6 +193,203 @@ const BrowseLocations = () => {
           </div>
 
         </div>
+        {/* new  */}
+        <div className="container my-4">
+      <div className="row">
+        <div className="col-12 col-md-6 mb-4">
+          <div className="card h-100">
+            <div className="card-body d-flex align-items-center justify-content-center big-script">
+              <p>Travel and see the world</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-4 mb-4">
+          <div className="card h-100">
+            <div className="card__image">
+              <img
+                src="https://images.pexels.com/photos/443416/pexels-photo-443416.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                alt="Travel Image"
+                className="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-4 mb-4">
+          <div className="card h-100">
+            <div className="card__image">
+              <img
+                src="https://images.pexels.com/photos/542411/pexels-photo-542411.png?auto=compress&cs=tinysrgb&h=750&w=1260"
+                alt="Travel Image"
+                className="img-fluid"
+              />
+            </div>
+            </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-4 mb-4">
+          <div className="card h-100">
+            <div className="card-body">
+              <p>Travel is fatal to prejudice, bigotry, and narrow-mindedness.</p>
+              <p>— Mark Twain</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-8 mb-4">
+          <div className="card h-100">
+            <div className="row no-gutters">
+              <div className="col-md-6">
+              <img
+                  src="https://images.pexels.com/photos/614494/pexels-photo-614494.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                  className="card-img"
+                  alt="Travel Image"
+                />
+              </div>
+              <div className="col-md-6">
+                <div className="card-body">
+                  <h2>Quisque volutpat.</h2>
+                  <p>Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit.</p>
+                  <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                  <div className="btn btn-outline-secondary">More...</div>
+                </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-4 mb-4">
+          <div className="card h-100">
+            <div className="card__image">
+              <img
+                src="https://images.pexels.com/photos/920968/pexels-photo-920968.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                alt="Travel Image"
+                className="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-4 mb-4">
+          <div className="card h-100">
+            <div className="card__image">
+              <img
+                src="https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                alt="Travel Image"
+                className="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-8 mb-4">
+          <div className="card h-100">
+            <div className="row no-gutters">
+              <div className="col-md-6">
+                <img
+                  src="https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                  className="card-img"
+                  alt="Travel Image"
+                />
+              </div>
+              <div className="col-md-6">
+                <div className="card-body">
+                  <h3>Lorem ipsum</h3>
+                  <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-4 mb-4">
+          <div className="card h-100">
+            <div className="card__image">
+              <img
+                src="https://images.pexels.com/photos/450597/pexels-photo-450597.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                alt="Travel Image"
+                className="img-fluid" />
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4 mb-4">
+              <div className="card h-100">
+                <div className="card__image">
+                  <img
+                    src="https://images.pexels.com/photos/269923/pexels-photo-269923.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                    alt="Travel Image"
+                    className="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 col-lg-4 mb-4">
+              <div className="card h-100">
+                <div className="card-body">
+                  <p>We wander for distraction, but we travel for fulfilment.</p>
+                  <p>— Hilaire Belloc</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-12 col-md-6 mb-4">
+              <div className="card h-100">
+                <div className="card__image">
+                  <img/>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 mb-4">
+          <div className="card h-100 border-0">
+            <div className="card-body d-flex align-items-center justify-content-center big-script">
+              <p>Bon voyage</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-4 mb-4">
+          <div className="card h-100">
+            <div className="card__image">
+              <img
+                src="https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                alt="Travel Image"
+                className="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-4 mb-4">
+          <div className="card h-100">
+            <div className="card__image">
+              <img src="https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                alt="Travel Image"
+                className="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-4 mb-4">
+          <div className="card h-100">
+            <div className="card__image">
+              <img
+                src="https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
+                alt="Travel Image"
+                className="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-4 mb-4">
+          <div className="card h-100">
+            <div className="card-body">
+              <p>A good traveller has no fixed plans and is not intent on arriving.</p>
+              <p>— Lao Tzu</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-12 col-md-6 col-lg-4 mb-4">
+          <div className="card h-100">
+            <div className="card__image">
+              <img
+                src="https://images.pexels.com/photos/386007/pexels-photo-386007.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Travel Image"
+                className="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
         <div className="container py-5">
 
           <div className="mx-auto mb-4 text-center" style={{ maxWidth: '990px' }}>
