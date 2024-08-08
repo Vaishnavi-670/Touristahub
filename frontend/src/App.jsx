@@ -12,6 +12,7 @@ import BrowsePlaces from './components/BrowsePlaces';
 import ManagePlaces from './components/ManagePlaces';
 import Destinations from './components/Destinations';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 const App = () => {
   return (
     <div><SnackbarProvider maxSnack={3} anchorOrigin={{vertical:'top',horizontal:'right'}}/>
@@ -34,6 +35,7 @@ const App = () => {
           <Route path='/destinations' element={<Destinations/>}/>
           
        </Routes>
+       <Footer/>
        </AppProvider>
      </BrowserRouter>
     </div>

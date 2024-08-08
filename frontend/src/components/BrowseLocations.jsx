@@ -245,7 +245,7 @@ const BrowseLocations = () => {
           </div>
         </div>
         </div>
-        <div className="container py-5">
+        <div className="container py-5 ">
 
           <div className="mx-auto mb-4 text-center" style={{ maxWidth: '990px' }}>
             <h1 className="display-3 text-dark fw-normal title">
