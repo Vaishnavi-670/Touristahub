@@ -193,203 +193,58 @@ const BrowseLocations = () => {
           </div>
 
         </div>
-        {/* new  */}
-        <div className="container my-4">
-      <div className="row">
-        <div className="col-12 col-md-6 mb-4">
-          <div className="card h-100">
-            <div className="card-body d-flex align-items-center justify-content-center big-script">
-              <p>Travel and see the world</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-4 mb-4">
-          <div className="card h-100">
-            <div className="card__image">
-              <img
-                src="https://images.pexels.com/photos/443416/pexels-photo-443416.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                alt="Travel Image"
-                className="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-4 mb-4">
-          <div className="card h-100">
-            <div className="card__image">
-              <img
-                src="https://images.pexels.com/photos/542411/pexels-photo-542411.png?auto=compress&cs=tinysrgb&h=750&w=1260"
-                alt="Travel Image"
-                className="img-fluid"
-              />
-            </div>
-            </div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-4 mb-4">
-          <div className="card h-100">
+        <div className="row px-4">
+        <div className="col-md-4 mb-4" >
+          <div className="card"style={{ height: '500px', overflow: 'hidden' }} >
             <div className="card-body">
-              <p>Travel is fatal to prejudice, bigotry, and narrow-mindedness.</p>
-              <p>— Mark Twain</p>
+              <img className='card-img-top' style={{ height: "300px", objectFit: 'cover' }} src="https://static.toiimg.com/thumb/msid-102383896,width-748,height-499,resizemode=4,imgsize-238460/.jpg" alt="" />
+              <h3>Shimla</h3>
+              <p className=' fs-6 text-dark '>Shimla is the capital of the northern Indian state of Himachal Pradesh, in the Himalayan foothills</p>
+              <Link className='btn btn-primary' to="/browseplace/shimla">View Places to Visit</Link>
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-6 col-lg-8 mb-4">
-          <div className="card h-100">
-            <div className="row no-gutters">
-              <div className="col-md-6">
-              <img
-                  src="https://images.pexels.com/photos/614494/pexels-photo-614494.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                  className="card-img"
-                  alt="Travel Image"
-                />
-              </div>
-              <div className="col-md-6">
-                <div className="card-body">
-                  <h2>Quisque volutpat.</h2>
-                  <p>Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. Quisque volutpat condimentum velit.</p>
-                  <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
-                  <div className="btn btn-outline-secondary">More...</div>
-                </div>
-                </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-4 mb-4">
-          <div className="card h-100">
-            <div className="card__image">
-              <img
-                src="https://images.pexels.com/photos/920968/pexels-photo-920968.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                alt="Travel Image"
-                className="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-4 mb-4">
-          <div className="card h-100">
-            <div className="card__image">
-              <img
-                src="https://images.pexels.com/photos/386009/pexels-photo-386009.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                alt="Travel Image"
-                className="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-8 mb-4">
-          <div className="card h-100">
-            <div className="row no-gutters">
-              <div className="col-md-6">
-                <img
-                  src="https://images.pexels.com/photos/885880/pexels-photo-885880.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                  className="card-img"
-                  alt="Travel Image"
-                />
-              </div>
-              <div className="col-md-6">
-                <div className="card-body">
-                  <h3>Lorem ipsum</h3>
-                  <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-4 mb-4">
-          <div className="card h-100">
-            <div className="card__image">
-              <img
-                src="https://images.pexels.com/photos/450597/pexels-photo-450597.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                alt="Travel Image"
-                className="img-fluid" />
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 col-lg-4 mb-4">
-              <div className="card h-100">
-                <div className="card__image">
-                  <img
-                    src="https://images.pexels.com/photos/269923/pexels-photo-269923.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                    alt="Travel Image"
-                    className="img-fluid"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 col-lg-4 mb-4">
-              <div className="card h-100">
-                <div className="card-body">
-                  <p>We wander for distraction, but we travel for fulfilment.</p>
-                  <p>— Hilaire Belloc</p>
-                </div>
-              </div>
-            </div>
-            <div className="col-12 col-md-6 mb-4">
-              <div className="card h-100">
-                <div className="card__image">
-                  <img/>
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-6 mb-4">
-          <div className="card h-100 border-0">
-            <div className="card-body d-flex align-items-center justify-content-center big-script">
-              <p>Bon voyage</p>
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-4 mb-4">
-          <div className="card h-100">
-            <div className="card__image">
-              <img
-                src="https://images.pexels.com/photos/33545/sunrise-phu-quoc-island-ocean.jpg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                alt="Travel Image"
-                className="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-4 mb-4">
-          <div className="card h-100">
-            <div className="card__image">
-              <img src="https://images.pexels.com/photos/358319/pexels-photo-358319.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                alt="Travel Image"
-                className="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-4 mb-4">
-          <div className="card h-100">
-            <div className="card__image">
-              <img
-                src="https://images.pexels.com/photos/373912/pexels-photo-373912.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260"
-                alt="Travel Image"
-                className="img-fluid"
-              />
-            </div>
-          </div>
-        </div>
-        <div className="col-12 col-md-6 col-lg-4 mb-4">
-          <div className="card h-100">
+        <div className="col-md-4 ">
+          <div className="card" style={{ height: '500px', overflow: 'hidden' }}>
             <div className="card-body">
-              <p>A good traveller has no fixed plans and is not intent on arriving.</p>
-              <p>— Lao Tzu</p>
+              <img className='card-img-top' style={{ height: "300px", objectFit: 'cover' }} src="https://cdn-ijojh.nitrocdn.com/wYlENIZbBEepXffmuWvajJfNyYNuqlHx/assets/images/optimized/wp-content/uploads/2023/02/88b025cb3e019dd48c4fe17b716960b5.manali-1024x536.jpg" alt="" />
+              <h3>Manali</h3>
+              <p>Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state.  </p>
+              <Link className='btn btn-primary' to="/browseplace/manali">View Places to Visit</Link>
             </div>
           </div>
         </div>
-        <div className="col-12 col-md-6 col-lg-4 mb-4">
-          <div className="card h-100">
-            <div className="card__image">
-              <img
-                src="https://images.pexels.com/photos/386007/pexels-photo-386007.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="Travel Image"
-                className="img-fluid"
-              />
+        <div className="col-md-4">
+          <div className="card" style={{ height: '500px', overflow: 'hidden' }}>
+            <div className="card-body">
+              <img className='card-img-top' style={{ height: "300px", objectFit: 'cover' }} src="https://www.travelandleisure.com/thmb/0CP3JWdU_EFnS4c5v8VtLekXb-Q=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/TAL-hawa-mahal-TODOJAIPUR1023-034e1287d12d453fab6d236e8cf7e982.jpg" alt="" />
+              <h3>Jaipur</h3>
+              <p>Jaipur is the capital of India’s Rajasthan state. It evokes the royal family that once ruled the region </p>
+              <Link className='btn btn-primary' to="/browseplace/jaipur">View Places to Visit</Link>
             </div>
           </div>
         </div>
-      </div>
-    </div>
+        <div className="col-md-4 mb-4">
+          <div className="card" style={{ height: '500px', overflow: 'hidden' }}>
+            <div className="card-body">
+              <img className='card-img-top' style={{ height: "300px", objectFit: 'cover' }} src="https://www.livemint.com/lm-img/img/2024/01/22/600x338/Ayodhya_ram_mandir_jpg_1705897752176_1705901616166.jpg" alt="" />
+              <h3>Ayodhya</h3>
+              <p>Ayodhya is a city situated on the banks of the Sarayu river in the Indian state of Uttar Pradesh</p>
+              <Link className='btn btn-primary' to="/browseplace/ayodhya">View Places to Visit</Link>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4">
+          <div className="card" style={{ height: '500px', overflow: 'hidden' }}>
+            <div className="card-body">
+              <img className='card-img-top' style={{ height: "300px", objectFit: 'cover' }} src="https://media.licdn.com/dms/image/D5612AQHYtOBHGCcDPA/article-cover_image-shrink_600_2000/0/1704606295718?e=2147483647&v=beta&t=OKJvfuwjbeJQdL9UzFhPvzHf1kl5RlyNv_qaylhU6Kc" alt="" />
+              <h3>Lakshadweep</h3>
+              <p>Lakshadweep is a tropical archipelago of 36 atolls and coral reefs in the Laccadive Sea, off the coast of Kerala, India</p>
+              <Link className='btn btn-primary' to="/browseplace/lakshdweep">View Places to Visit</Link>
+            </div>
+          </div>
+        </div>
+        </div>
         <div className="container py-5">
 
           <div className="mx-auto mb-4 text-center" style={{ maxWidth: '990px' }}>
