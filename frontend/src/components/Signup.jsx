@@ -27,7 +27,7 @@ const Signup = () => {
       confirm: '',
     },
 
-    onSubmit: async (values,{setSubmitting, resetForm}) => {
+    onSubmit: async (values, { setSubmitting, resetForm }) => {
       console.log(values);
       setSubmitting(true);
 
@@ -56,53 +56,53 @@ const Signup = () => {
       }
     },
 
-validationSchema: SignupSchema
+    validationSchema: SignupSchema
   });
 
-return (
-  <div className='bodyy'>
-    <div className=" box">
+  return (
+    <div className='bodyy'>
+      <div className=" box">
 
-      <form onSubmit={signupForm.handleSubmit}>
-        <h2 className='text-center' >Signup Page</h2>
-        {/* <div className="row mb-4"> */}
+        <form onSubmit={signupForm.handleSubmit}>
+          <h2 className='text-center' >Signup Page</h2>
+          {/* <div className="row mb-4"> */}
 
-        <div className="col">
-          <div data-mdb-input-init className="form-outline mb-4">
-            <label className="form-label" for="form3Example1"> Name</label>
-            <span className='ms-4 fs-6 text-danger'> {signupForm.touched.name && signupForm.errors.name}</span>
-            <input type="text" className="form-control" id="name" onChange={signupForm.handleChange} value={signupForm.values.name} />
+          <div className="col">
+            <div data-mdb-input-init className="form-outline mb-4">
+              <label className="form-label" for="form3Example1"> Name</label>
+              <span className='ms-4 fs-6 text-danger'> {signupForm.touched.name && signupForm.errors.name}</span>
+              <input type="text" className="form-control" id="name" onChange={signupForm.handleChange} value={signupForm.values.name} />
+            </div>
           </div>
-        </div>
 
 
-        <div data-mdb-input-init className="form-outline mb-4">
-          <label className="form-label" for="form3Example3">Email address</label>
-          <span className='ms-4 fs-6 text-danger'>{signupForm.touched.email && signupForm.errors.email}</span>
-          <input type="email" className="form-control" id="email" onChange={signupForm.handleChange} value={signupForm.values.email} />
-        </div>
+          <div data-mdb-input-init className="form-outline mb-4">
+            <label className="form-label" for="form3Example3">Email address</label>
+            <span className='ms-4 fs-6 text-danger'>{signupForm.touched.email && signupForm.errors.email}</span>
+            <input type="email" className="form-control" id="email" onChange={signupForm.handleChange} value={signupForm.values.email} />
+          </div>
 
-        <div data-mdb-input-init className="form-outline mb-4">
-          <label className="form-label" for="form3Example4">Password</label>
-          <span className='ms-4 fs-6 text-danger'>{signupForm.touched.password && signupForm.errors.password}</span>
-          <input type="password" className="form-control" id="password" onChange={signupForm.handleChange} value={signupForm.values.password} />
-        </div>
+          <div data-mdb-input-init className="form-outline mb-4">
+            <label className="form-label" for="form3Example4">Password</label>
+            <span className='ms-4 fs-6 text-danger'>{signupForm.touched.password && signupForm.errors.password}</span>
+            <input type="password" className="form-control" id="password" onChange={signupForm.handleChange} value={signupForm.values.password} />
+          </div>
 
-        <div data-mdb-input-init className="form-outline mb-4">
-          <label className="form-label" for="form3Example4">Confirm</label>
-          <span className='ms-4 fs-6 text-danger'>{signupForm.touched.confirm && signupForm.errors.confirm}</span>
-          <input type="password" className="form-control" id="confirm" onChange={signupForm.handleChange} value={signupForm.values.confirm} />
-        </div>
+          <div data-mdb-input-init className="form-outline mb-4">
+            <label className="form-label" for="form3Example4">Confirm</label>
+            <span className='ms-4 fs-6 text-danger'>{signupForm.touched.confirm && signupForm.errors.confirm}</span>
+            <input type="password" className="form-control" id="confirm" onChange={signupForm.handleChange} value={signupForm.values.confirm} />
+          </div>
 
 
 
-        <button type='submit ' className="btn btn-success ">Signup</button>
-      </form>
+          <button type='submit ' className="btn btn-success ">Signup</button>
+        </form>
+      </div>
     </div>
-  </div>
 
 
-);
+  );
 };
 
 
