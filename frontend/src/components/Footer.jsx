@@ -3,18 +3,16 @@ import React from 'react'
 const Footer = () => {
     return (
         <div >
-            <footer className="mt-5" data-scroll-section="">
-                
-                    
+            <footer className="mt-5" data-scroll-section="">                   
                     <div className="bg-dark py-5">
                         <div className="position-relative top-3 w-75 mx-auto d-flex justify-content-between">
                             <div className="text-white">
-                                <h1 className="display-4">Melaku Tour</h1>
+                                <h1 className="display-4">TourishtaHub</h1>
                                 <i className="fa fa-twitter fa-2x mr-2" aria-hidden="true"></i>
                                 <i className="fa fa-facebook fa-2x mr-2" aria-hidden="true"></i>
                                 <i className="fa fa-instagram fa-2x mr-2" aria-hidden="true"></i>
                                 <i className="fa fa-linkedin fa-2x mr-2" aria-hidden="true"></i>
-                                <p className="pt-2">melakuntour@gmail.com</p>
+                                <p className="pt-2">tourishtahub@gmail.com</p>
                                 <p className="pt-2">(+62) 81234567890</p>
                             </div>
                             <ul className="list-unstyled">

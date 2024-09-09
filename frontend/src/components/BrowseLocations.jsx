@@ -14,6 +14,44 @@ const BrowseLocations = () => {
       navigate(`/browseplace/${search}`);
     }
   }
+  const testimonials = [
+    {
+      name: "John Doe",
+      location: "Paris, France",
+      image: "https://i.pinimg.com/236x/0d/73/72/0d73721b2ce2315c04977388308c0feb.jpg",
+      quote: "Tourista Hub made my dream vacation to Paris seamless and unforgettable. I highly recommend their services!"
+    },
+    {
+      name: "Jane Smith",
+      location: "Tokyo, Japan",
+      image: "https://i.pinimg.com/474x/bd/55/e8/bd55e878e5bc5b7c6e2912a925a3ae8c.jpg",
+      quote: "Thanks to Tourista Hub, I discovered hidden gems in Tokyo I wouldn't have found on my own."
+    },
+    {
+      name: "Alex Johnson",
+      location: "Rome, Italy",
+      image: "https://i.pinimg.com/474x/d5/c3/92/d5c39270840accd2104c103c6a8d1319.jpg",
+      quote: "Tourista Hub's recommendations made my trip to Rome a wonderful experience. The food tours were amazing!"
+    },
+    {
+      name: "Emily Davis",
+      location: "New York, USA",
+      image: "https://i.pinimg.com/474x/ab/65/21/ab65217dcf96b85fe05f2204294f2d1c.jpg",
+      quote: "Tourista Hub gave me the best New York experience! Everything from the hotel to the attractions was perfectly arranged."
+    },
+    {
+      name: "Michael Brown",
+      location: "Sydney, Australia",
+      image: "https://i.pinimg.com/474x/ec/d1/5d/ecd15d505182ee37f214a06d73832262.jpg",
+      quote: "I enjoyed every bit of my trip to Sydney, thanks to the exceptional planning by Tourista Hub."
+    },
+    {
+      name: "Sophia Wilson",
+      location: "Dubai, UAE",
+      image: "https://i.pinimg.com/474x/01/ce/51/01ce51b14df1c02f30bc4453f6786c51.jpg",
+      quote: "The desert safari in Dubai was the highlight of my trip. Tourista Hub really knows how to make vacations special!"
+    }
+  ];
 
   return (
     <div className='overflow-y-hidden '>
@@ -315,6 +353,32 @@ const BrowseLocations = () => {
         </div>
 
       </section>
+      <section className="container py-5">
+      <h2 className="text-center mb-5">What Travelers Say</h2>
+      <div className="row">
+        {testimonials.map((testimonial, index) => (
+          <div className="col-md-4 mb-4" key={index}>
+            <div className="card h-100 shadow-sm p-3">
+              <div className="d-flex align-items-center">
+                <img 
+                  src={testimonial.image} 
+                  className="rounded-circle" 
+                  alt={testimonial.name} 
+                  style={{ width: '80px', height: '80px', objectFit: 'cover' }} 
+                />
+                <div className="ms-3">
+                  <h5 className="mb-0">{testimonial.name}</h5>
+                  <p className="text-muted mb-2">{testimonial.location}</p>
+                </div>
+              </div>
+              <div className="card-body">
+                <p className="card-text">"{testimonial.quote}"</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </section>
     </div>
   )
 }

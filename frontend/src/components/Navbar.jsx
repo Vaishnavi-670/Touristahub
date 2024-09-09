@@ -17,7 +17,7 @@ const Navbar = () => {
       )
      }else{
       return <>  
-                         
+        <div className='d-flex'>                 
         <li className="nav-item">
           <NavLink className="nav-link" to="/signup">
             Signup
@@ -47,7 +47,7 @@ const Navbar = () => {
            Destinations
             </NavLink>
             </li>
-          
+          </div>
       </>
      }
   }
@@ -56,11 +56,8 @@ const Navbar = () => {
   <div className="container-fluid">
     <img  style={{height:'60px', width:'100px', objectFit:'cover'}} src="https://media.istockphoto.com/id/1637056982/vector/travel-agency-business-logo-transport-logistics-delivery-logo-design.jpg?s=612x612&w=0&k=20&c=b1SGg7tQ9DGPDpzLvWJgqUl_LyrBzAQpabPw-RJfg5s=" alt="" />
     
-    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-        
-        </ul>
-        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+    <div  >
+        <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
            {showLoginOptions()}
         </ul>
     </div>
