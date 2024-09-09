@@ -353,32 +353,32 @@ const BrowseLocations = () => {
         </div>
 
       </section>
-      <section className="container py-5">
-      <h2 className="text-center mb-5">What Travelers Say</h2>
-      <div className="row">
-        {testimonials.map((testimonial, index) => (
-          <div className="col-md-4 mb-4" key={index}>
-            <div className="card h-100 shadow-sm p-3">
-              <div className="d-flex align-items-center">
-                <img 
-                  src={testimonial.image} 
-                  className="rounded-circle" 
-                  alt={testimonial.name} 
-                  style={{ width: '80px', height: '80px', objectFit: 'cover' }} 
-                />
-                <div className="ms-3">
-                  <h5 className="mb-0">{testimonial.name}</h5>
-                  <p className="text-muted mb-2">{testimonial.location}</p>
+      <section className="container py-3">
+        <h2 className="text-center display-3 fw-medium mb-5">What Travelers Say</h2>
+        <div className="row">
+          {testimonials.map((testimonial, index) => (
+            <div className="col-md-4 mb-4" key={index}>
+              <div className="card h-100 shadow-sm p-3">
+                <div className="d-flex align-items-center">
+                  <img
+                    src={testimonial.image}
+                    className="rounded-circle"
+                    alt={testimonial.name}
+                    style={{ width: '80px', height: '80px', objectFit: 'cover' }}
+                  />
+                  <div className="ms-3">
+                    <h5 className="mb-0">{testimonial.name}</h5>
+                    <p className="text-muted mb-2">{testimonial.location}</p>
+                  </div>
+                </div>
+                <div className="card-body">
+                  <p className="card-text">"{testimonial.quote}"</p>
                 </div>
               </div>
-              <div className="card-body">
-                <p className="card-text">"{testimonial.quote}"</p>
-              </div>
             </div>
-          </div>
-        ))}
-      </div>
-    </section>
+          ))}
+        </div>
+      </section>
     </div>
   )
 }
