@@ -21,7 +21,6 @@ const BrowsePlaces = () => {
     }, [])
     const deleteitems = async (id) => {
         console.log(id);
-
         const res = await fetch ('http://localhost:5000/place/delete/'+id ,{ method :'Delete'});
         console.log(res.status);
         if(res.status === 200){
