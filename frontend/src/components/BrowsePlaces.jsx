@@ -16,7 +16,6 @@ const BrowsePlaces = () => {
         console.table(data);
         setplaceVisit(data)
     }
-
     useEffect(() => {
         fetchPlaceData();
     }, [])
