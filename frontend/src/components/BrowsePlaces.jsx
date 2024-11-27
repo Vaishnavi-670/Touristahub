@@ -6,7 +6,6 @@ import { enqueueSnackbar } from 'notistack';
 const BrowsePlaces = () => {
 
     const [placeVisit, setplaceVisit] = useState([]);
-
     const { location } = useParams();
     // const {id} = useParams();
 
