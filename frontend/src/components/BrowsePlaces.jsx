@@ -19,7 +19,6 @@ const BrowsePlaces = () => {
     useEffect(() => {
         fetchPlaceData();
     }, [])
-
     const deleteitems = async (id) => {
         console.log(id);
 
