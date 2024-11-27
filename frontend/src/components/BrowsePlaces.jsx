@@ -9,7 +9,6 @@ const BrowsePlaces = () => {
 
     const { location } = useParams();
     // const {id} = useParams();
-    
 
     const fetchPlaceData = async () => {
         const res = await fetch('http://localhost:5000/place/getbylocation/' + location);
