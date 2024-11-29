@@ -46,7 +46,6 @@ const BrowsePlaces = () => {
             </div>
         })
     }
-
     return (
         <>
             <div className='container'>
