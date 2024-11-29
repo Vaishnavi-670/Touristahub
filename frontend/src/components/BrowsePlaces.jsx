@@ -32,7 +32,6 @@ const BrowsePlaces = () => {
     const displayPlaces = () => {
         return placeVisit.map((obj, index) => {
             return <div className='col-md-4 mt-5'>
-
                 <div className='card shadow h-100'>
                     <img className='card-img-top' style={{ height: "200px", objectFit: 'cover' }} src={'http://localhost:5000/' + obj.image} alt="loading" />
                     <div className="card-body">
