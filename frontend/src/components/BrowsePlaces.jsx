@@ -28,7 +28,6 @@ const BrowsePlaces = () => {
         //   fetchPlacesData();
         } 
     }
-
     const displayPlaces = () => {
         return placeVisit.map((obj, index) => {
             return <div className='col-md-4 mt-5'>
