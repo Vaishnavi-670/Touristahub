@@ -56,5 +56,4 @@ const BrowsePlaces = () => {
         </>
     )
 }
-
 export default BrowsePlaces
