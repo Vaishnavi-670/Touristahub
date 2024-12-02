@@ -17,7 +17,6 @@ const Contact = () => {
             className="bg-light text-dark border-0 rounded p-2 mb-3 w-100 col-md-5 ml-md-2"
             placeholder="Email"
           />
-
           <input
             type="number"
             className="bg-light text-dark border-0 rounded p-2 mb-3 w-100 col-md-5 mr-md-2"
