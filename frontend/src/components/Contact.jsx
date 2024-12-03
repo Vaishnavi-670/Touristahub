@@ -43,14 +43,14 @@ const Contact = () => {
             placeholder="Message"
             rows="4"
           >
-            
+
           </textarea>
 
           <button
             type="submit"
             className="btn btn-primary w-100 mt-3"
           >
-            Submit
+           Submit
           </button>
         </form>
       </div>
