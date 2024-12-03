@@ -50,7 +50,7 @@ const Contact = () => {
             type="submit"
             className="btn btn-primary w-100 mt-3"
           >
-        Submit
+      Submit
           </button>
         </form>
       </div>
