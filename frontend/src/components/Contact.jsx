@@ -42,7 +42,9 @@ const Contact = () => {
             className="bg-light text-dark border-0 rounded p-2 mb-3 w-100"
             placeholder="Message"
             rows="4"
-          ></textarea>
+          >
+            
+          </textarea>
 
           <button
             type="submit"
