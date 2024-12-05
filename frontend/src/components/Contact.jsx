@@ -44,7 +44,6 @@ const Contact = () => {
             rows="4"
           >
           </textarea>
-
           <button
             type="submit"
             className="btn btn-primary w-100 mt-3"
