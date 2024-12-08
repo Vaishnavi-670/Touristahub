@@ -44,13 +44,14 @@ const Navbar = () => {
             Places to Visit
             </NavLink>
             </li>
-            
+
             <li className="nav-item ">
           <NavLink
             className="nav-link " to="/destinations"> 
            Destinations
             </NavLink>
             </li>
+            
           </div>
       </>
      }
