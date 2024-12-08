@@ -37,13 +37,14 @@ const Navbar = () => {
             Contact
             </NavLink>
             </li>
-            
+
             <li className="nav-item ">
           <NavLink
             className="nav-link " to="/addplace"> 
             Places to Visit
             </NavLink>
             </li>
+            
             <li className="nav-item ">
           <NavLink
             className="nav-link " to="/destinations"> 
