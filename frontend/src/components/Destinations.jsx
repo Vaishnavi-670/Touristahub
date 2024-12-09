@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 const Destinations = () => {
   return (
     <div className='overflow-y-hidden'>
+      {/* header  */}
       <header className='d-flex 'style={{width: '95%' }} >
         <div className="mx-auto mt-5 container mb-4 text-center" style={{ maxWidth: '900px' }}>
           <h1 className=" display-2 text-dark fw-bold animated-text">
