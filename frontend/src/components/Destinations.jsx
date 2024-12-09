@@ -29,6 +29,7 @@ const Destinations = () => {
             </div>
           </div>
         </div>
+        {/* 2nd section  */}
         <div className="col-md-4 ">
           <div className="card" style={{ height: '500px', overflow: 'hidden' }}>
             <div className="card-body">
