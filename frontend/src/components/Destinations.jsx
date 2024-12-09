@@ -16,7 +16,6 @@ const Destinations = () => {
         </div>
       </header>
 
-
       <div className="row px-4">
         <div className="col-md-4 mb-4" >
           <div className="card"style={{ height: '500px', overflow: 'hidden' }} >
