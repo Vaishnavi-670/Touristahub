@@ -13,7 +13,7 @@ import ManagePlaces from './components/ManagePlaces';
 import Destinations from './components/Destinations';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Footer from './components/AboutUs';
+import AboutUs from './components/AboutUs';
 const App = () => {
   return (
     <div><SnackbarProvider maxSnack={3} anchorOrigin={{vertical:'top',horizontal:'right'}}/>
