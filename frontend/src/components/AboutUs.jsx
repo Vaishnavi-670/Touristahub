@@ -19,14 +19,14 @@ const AboutUs = () => {
             Tourishta Hub
           </span>
         </h1>
-        <p className="px-0 mb-4 fs-5 text-muted">
+        <p className="px-5 mb-2 fs-5 text-muted">
           Welcome to Tourishta Hub, your ultimate travel companion! Discover exclusive destinations, hand-picked travel experiences, and personalized itineraries all in one place. Whether you're an adventure seeker or a culture enthusiast, we're here to guide you to your dream vacation.
         </p>
-        <div className="container  py-5 ">
+        <div className="container  py-2 ">
           <div className="row mt-5 justify-content-between ">
 
             {/* End Col */}
-            <div className=" col-md-3 d-flex mb-4 flex-column  align-items-center p-4 bg-light rounded shadow hover--effect">
+            <div className=" col-md-3 d-flex mb-4 flex-column  align-items-center p- bg-light rounded shadow hover--effect">
               <img src="https://icons.veryicon.com/png/o/miscellaneous/8atour/credit-guarantee.png" style={{ width: '100px', height: '100px', objectFit: 'cover' }} alt="" />
               <h2 className='mt-3 text-center'>Our Mission </h2>
               <p className="text-center">At TourishtaHub, we believe in making travel planning simple and accessible. Our mission is to empower every traveler by providing them with accurate, real-time information and recommendations on the best destinations, activities, and experiences. We are committed to offering hand-picked, quality destinations that cater to all interests, from exploring the hidden gems to famous tourist attractions worldwide.
