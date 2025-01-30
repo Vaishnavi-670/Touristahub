@@ -2,9 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-
     <div className="d-flex flex-column align-items-center justify-content-center mt-4 ">
-      
       <div className="   rounded-lg shadow p-4" style={{ width: '500px' }}>
         <h2 className="h3 font-weight-bold text-center text-dark mb-4">Contact Form</h2>
         <form className="d-flex flex-wrap">
