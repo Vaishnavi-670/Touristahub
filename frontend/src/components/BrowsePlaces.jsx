@@ -39,9 +39,10 @@ const BrowsePlaces = () => {
                         <p className="">{obj.address}</p>
                         <p className="">{obj.description}</p>
                         <div>
-                            
+
                             <button className='btn btn-danger' onClick={() => deleteitems(obj._id)}>Delete</button>
                         </div>
+                        
                     </div>
 
                 </div>
