@@ -28,7 +28,7 @@ const BrowsePlaces = () => {
         //   fetchPlacesData();
         } 
     }
-    
+
     const displayPlaces = () => {
         return placeVisit.map((obj, index) => {
             return <div className='col-md-4 mt-5'>
@@ -39,6 +39,7 @@ const BrowsePlaces = () => {
                         <p className="">{obj.address}</p>
                         <p className="">{obj.description}</p>
                         <div>
+                            
                             <button className='btn btn-danger' onClick={() => deleteitems(obj._id)}>Delete</button>
                         </div>
                     </div>
