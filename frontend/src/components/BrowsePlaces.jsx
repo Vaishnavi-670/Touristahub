@@ -36,13 +36,14 @@ const BrowsePlaces = () => {
                     <img className='card-img-top' style={{ height: "200px", objectFit: 'cover' }} src={'http://localhost:5000/' + obj.image} alt="loading" />
                     <div className="card-body">
                         <h2 className="">{obj.name}</h2>
+                        
                         <p className="">{obj.address}</p>
                         <p className="">{obj.description}</p>
                         <div>
 
                             <button className='btn btn-danger' onClick={() => deleteitems(obj._id)}>Delete</button>
                         </div>
-                        
+
                     </div>
 
                 </div>
